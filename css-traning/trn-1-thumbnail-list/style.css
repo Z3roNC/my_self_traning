@@ -1,0 +1,71 @@
+
+body {
+    color: #555;
+    background-color: #5B9EED;
+}
+
+.list-wrapper {
+    width: 90%;
+    max-width: 400px;
+    margin: 30px auto;
+
+    /* background-color: #FFF; */
+}
+
+/* list component */
+
+ul, .list { 
+    background-color: #FFF;
+    list-style: none;
+    margin: 0;
+    padding: 15px;
+    border-radius: 2px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.45);
+}
+/* need put ul, or background-color
+not work, or put bg-c on parent class above */
+
+
+.list, .list-item {
+    display: flex;
+    padding: 10px 5px;
+}
+
+.list, .list-item:not(:last-child) {
+    border-bottom: 1px solid #EEE;
+}
+
+/* list item image wrapper */
+
+.list, .list-item__image {
+    flex-shrink: 0;
+        /* border: 3px solid  red; */
+    height: 80px;
+}
+
+.list, .list-item__image, img {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+
+/* list item content */
+
+.list, .list-item__content {
+    flex-grow: 1;
+    /* border: 3px solid  blue; */
+    padding: 0 20px;
+}
+
+.list, .list-item__content, h4 {
+    margin: 0;
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.list, .list-item__content, p {
+    margin-top: 5px;
+    color: #AAA;
+    margin-bottom: 0;
+
+}
