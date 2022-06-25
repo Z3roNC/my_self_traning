@@ -1,0 +1,131 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 0;
+  min-height: 100vh;
+}
+
+.header {
+  height: 72px;
+  background: darkmagenta;
+  color: white;
+}
+
+.footer {
+  height: 72px;
+  background: #eee;
+  color: darkmagenta;
+}
+
+.sidebar {
+  width: 300px;
+  background: royalblue;
+}
+
+.card {
+  border: 1px solid #eee;
+  box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+  border-radius: 4px;
+}
+
+/* try to solve */
+
+body
+/* .content */ { /* 1 stuff extra/useless? */
+  display: flex;
+  flex-direction: column; 
+}
+
+.header { /* this pretty ok */
+  display: flex;
+  align-items: center;
+  font-size: 32px;
+  font-weight: 900;
+  padding: 2px 16px;
+  /* margin: 16px 0 0 0; useless */
+}
+
+.content { /* same as .body? */
+  flex: 1; /* i make 2 here before */
+  /* order: 2; */
+  display: flex;
+  /* flex-flow: wrap row; another useless stuff? */
+}
+
+.sidebar {
+  flex-shrink: 0;
+  /* flex: 1;
+  order: 1;
+  display: flex;
+  max-width: 300px;
+  margin: 0; */
+  padding: 16px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li { 
+  margin-bottom: 16px;
+}
+
+/* here before i make only 1 with all inside
+li, a {
+  padding: 8px;
+  font-size: 24px;
+  color: white;
+  text-decoration: none;
+  list-style-type: none;
+}
+*/
+
+a {
+  font-size: 24px;
+  color: white;
+  text-decoration: none;
+}
+
+.cardzone { /* a lost of useless stuff over there */
+  /* flex: 1;
+  order: 2; */
+  padding: 32px;
+/*   margin: 8px;
+  border: 16px; */
+  display: flex;
+  flex-wrap: wrap;
+/*   flex-flow: wrap column; */
+/*   max-height: 200px;
+  max-width: 400px ;
+  justify-content: space-between;
+  flex-shrink: 300px;
+  gap: 16px; */
+}  /* a lost of useless stuff over there */
+
+
+.card {
+  padding: 16px;
+  margin: 16px; /* not write before */
+/*   padding-bottom: 32px;
+ */  width: 300px; /* missed this wide size */
+    
+}
+
+.footer {
+  /* order: 3; usless stuff */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* footer still not go to sticky bottom
+edit now works, with "," after body, {} 
+stuck the "game of footer" on end page */
+
+
+
+/* so on 6 exercise i done 2 right at first try.
+i think i ll study more about css and flex
+with exercise over the odin-project or can't
+do by my self that landing page "alone". */

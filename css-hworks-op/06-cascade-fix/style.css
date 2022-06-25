@@ -1,0 +1,64 @@
+/* style.css */
+
+
+.para,
+.small-para {
+  color: hsl(0, 100%, 50%);
+}
+
+/* missing .para or move under .para as like .small.para */
+
+.para.small-para {
+  font-size: 14px;
+}
+
+.para {
+  font-size: 22px;
+}
+
+/* move up other button for problem about square-size */
+
+.button {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+}
+
+/* missing .buttom or #confirm-buttom */
+
+.confirm.button {
+  background: green;
+  color: white;
+  font-weight: bold;
+} 
+
+div.text {
+  color: green;
+  font-size: 22px;
+}
+
+/* missing .text or .div.child */
+
+.text.child {
+  color: red;
+  font-size: 14px;
+}
+
+/* 
+.div.child {
+  color: red;
+  font-size: 14px;
+}
+ */
+
+
+
+
+
+
+
+
+
+
+
+

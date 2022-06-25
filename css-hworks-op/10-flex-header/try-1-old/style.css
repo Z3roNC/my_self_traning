@@ -1,0 +1,89 @@
+.header  {
+  font-family: monospace;
+  background: papayawhip;
+/*   display: flex;
+  flex-wrap: wrap; */
+/*   align-items: center;
+  justify-content: center; */
+  display: flex;
+  border: 5px orange;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  font-size: 48px;
+  font-weight: 900;
+  color: tomato;
+  background: white;
+  padding: 4px 32px;
+
+/*   display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 120px 115px;
+  border: 15px;
+  border-color: green;
+ */
+}
+
+ul {
+  /* this removes the dots on the list items*/
+  list-style-type: none;
+
+  display: flex;
+  flex-flow: row wrap;
+  
+ /*  gap: 10px;
+  border: 5px orange; */
+  
+  
+}
+
+a {
+  font-size: 22px;
+  background: white;
+  padding: 8px;
+  /* this removes the line under the links */
+  text-decoration: none;
+display: flex;
+/*gap: 10px;
+  border: 5px orange; */
+
+}
+
+.left-links {
+  height: 130px;
+  width: auto;
+  padding:  10px;
+  margin: 15px;
+  border: 5px green;
+  border-color: red;
+  display: flex;
+  /*
+  gap: 8px;
+  display: flex; 
+  height: 100px;
+  flex-wrap: wrap; 
+  border-width: 0px; */
+  justify-content: flex-start;
+
+}
+
+.right-links {
+  height:  150px;
+  width: auto;
+  padding:  25px;
+  margin: 15px;
+  border: 5px violet;
+  border-color: blue;
+  display: flex;
+/*   gap: 20px;
+  height: 75px;
+  border-width: 0px; */
+  /*flex-wrap: wrap; */
+  /* flex-direction: row; */
+  
+  justify-content: flex-end;
+
+}

@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+  font-family: Roboto, sans-serif;
+}
+
+img {
+  width: 600px;
+}
+
+button {
+  font-family: Roboto, sans-serif;
+  border: none;
+  border-radius: 8px;
+  background: #eee;
+}
+
+input {
+  border: 1px solid #ddd;
+  border-radius: 16px;
+  padding: 8px 24px;
+  width: 400px;
+  margin-bottom: 16px;
+}
+
+
+/* here solution try */
+
+body {
+  display: flex; /* when try to write not work propely */
+  flex-direction: column;
+}
+
+/* 
+ul,
+li,
+ */
+a {
+  /* display: flex; */
+  list-style: none;
+  text-decoration: none;
+  text-decoration-color: none;
+  color: grey;
+} 
+
+
+.header,
+.footer {
+  display: flex;
+  justify-content: space-between;
+  /* flex-flow: wrap column; */
+  padding: 16px;
+}
+
+/*
+.left-links,
+.right-links {
+  display: flex;
+  gap: 8px;
+}
+*/
+
+
+.content /* , img, footer */ {
+  flex: 1; /* need to understood better */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; /* before i not use for usless */
+/*   margin: 16px;
+  padding: 8px; */
+}
+
+
+/* ul.left-links. {
+  display: flex;
+  align-items: left;
+  text-align: left;
+}
+
+ul.right-links {
+  display: flex;
+  justify-content: space-around
+  align-items: right;
+  text-align: right;
+} */
+
+button {
+  padding: 10px 20px;
+}
+
+.footer {
+  background-color: #eeeeee;
+}
+
+ul { /* sll this i skipped so not write */
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 16px
+}

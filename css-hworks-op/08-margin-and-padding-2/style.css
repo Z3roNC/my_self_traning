@@ -1,0 +1,48 @@
+body {
+  background: #eee;
+  font-family: sans-serif;
+  }
+
+.card {
+  width: 400px;
+  background: #fff;
+  margin: 16px auto;
+  padding: 8px;
+}
+
+.title {
+  background: #e3f4ff;
+  font-size: 16px;
+  padding: 8px;
+  margin-top: 0px; 
+  margin-bottom: 8px;
+}
+
+.content {
+  background: #e3f4ff;
+  padding: 16px 8px;
+  margin-bottom: 8px;
+}
+
+.button-container {
+  background: #e3f4ff;
+  text-align: center;
+  padding: 8px;
+}
+
+button {
+  background: white;
+  border: 1px solid #eee;
+  display: block;
+  margin: 0 auto;
+  padding: 8px 24px; 
+}
+
+/* margin/pudding/border works
+with top right bottom left
+like:
+pudding: 0 10 0 5 - 10 right, 5 left
+border: 10 0 5 0 - 10 top, 5 bot
+margin: 2 8 4 6 -
+2 top, 8 right, 4 bot, 6 left
+just a little not for myself */

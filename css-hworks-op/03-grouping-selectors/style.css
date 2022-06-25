@@ -1,0 +1,17 @@
+/* style.css */
+
+.click-me
+.click-no-me
+{
+    font-family: 'Helvetica', 'Times New Roman', 'sans-serif';
+    font-size: 28px;
+}
+
+.click-me {
+    background-color: rgb(0, 0, 0);
+    color: hsl(0, 0%, 100%);
+}
+
+.click-no-me {
+    background-color: #ffff00;
+}
